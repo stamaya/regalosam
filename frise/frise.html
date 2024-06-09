@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Trouver le pays</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../menu/nav_bar.css">
+  <link rel="stylesheet" href="../menu/homepage.css">
+  <link rel="stylesheet" href="frise.css">
+  <link rel="icon" type="image/gif" href="./img/play.png">
+
+</head>
+
+<body>
+	<nav class="nav_bar">
+	<button onclick="window.location.href='../intrus/intrus.html'">
+		<img src="../img/left-arrow.png" id="left-arrow">
+	</button>
+	<button onclick="window.location.href='../index.html'">
+		<img src="../img/home.png" id="home-img" >
+	</button>
+	<button onclick="window.location.href='../image/image.html'">
+		<img src="../img/right-arrow.png" id="right-arrow">
+	</button>
+</nav>
+
+<div id="container">
+	<div class="center">
+	  	<button class="btn avant" id="previous" onclick="precedent()">
+			<span>Précédent<span>
+		</button>
+
+		<button class="btn apres" id="next" onclick="suivant()">
+			<span>Suivant</span>
+		</button>
+	</div>
+</div>
+
+
+	<div id = "bloc_image">
+		<img src="../screen/cap00.png" id="image">
+	</div>
+</div>
+
+
+<div id="containerreponse">
+	<div class="center">
+	  	<button class="btns reponse" id="solution" onclick="reponse()">
+			<span id="affichage_reponse">Réponse<span>
+		</button>
+	</div>
+</div>
+
+</body>
+	<script src="frise.js"></script>
+</html>
