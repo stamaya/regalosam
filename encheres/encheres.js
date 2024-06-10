@@ -17,16 +17,6 @@ function bonne_reponse()
 	document.getElementById(i).style.color = "white";
 	document.getElementById(i).style.backgroundColor = "#C1E1C1";
 	
-	if (bonneslettres.includes(lettre)) {
-		var LETTRE = lettre.toUpperCase();
-		for (let p = 0; p < document.getElementsByClassName(lettre).length; p ++)
-		{
-			document.getElementsByClassName(lettre)[p].textContent = LETTRE;
-			console.log(document.getElementsByClassName(lettre)[p].textContent)
-			compteur++
-		}
-
-	}
 
 		
 }
@@ -76,60 +66,59 @@ var sons = [
 ]
 
 var regles = [
-	"Qui parlent ? (3 personnes)",
-	"En quelle année ? (1 seule réponse)",
-	"Quels instruments ? (4 instruments)",
-	"Qui suis-je ? (en 1 coup)",
-	"La suite ?",
-	"Quelle série ? (Rapidité)",
 	"Qui parle ?",
-	"Dans l'ordre - 6 accents espagnols",
-	"Qui est dans cet ascenseur ?",
-	"Quel est le nom de l'actrice ?",
-	"Qui parle ?",
-	"Quel est le nom du film ?",
-	"Quelle année ?",
+	"Quel groupe peut-on entendre chanter ?",
+	"De quelle région viennent ces chanteurs ?",
 	"Quelle série ?",
-	"Question pour maman",
-	"Question pour Yaëlle",
-	"Qui parlent ? (4 personnes)",
-	"Question pour Sam",
-	"Question pour Maxime",
-	"Question pour aita",
-	"Nom de la série",
-	"Question pour Aitor",
-	"Qui parle ? (dans l'ordre)",
+	"Qui fait partie de ce groupe ?",
+	"A qui pose la question le journaliste ?",
 	"Qui chante ?",
-	"En quelle année ?",
-	"En quelle année ?",
-
+	"Qui sont les trois personnes qui parlent ?",
+	"Qui chante ? (2 duo + 2 chanteurs)",
+	"Qui parle ?",
+	"Complétez les paroles !",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
 ]
 
 var reponses = [
-	"Jokic - Brel - Natoo",
-	"2005",
-	"Tuba - Clarinette - Hautbois - Violoncelle",
-	"Julia Roberts",
-	"Love me",
-	"Monk",
-	"Caroline Hériaud",
-	"Euskadi - Navarra - Cataluña - Madrid - Andalucía - Canarias",
-	"Meredith - Addison - Rose - Derek - Sloan",
-	"Zazou",
-	"Sergio Ramos",
-	"Glass Onion: A Knives Out Mystery (2022)",
-	"1981",
-	"Casa de papel",
-	"Venus & Serena",
-	"Football américain", 
-	"Amelia Shepard - Meredith Grey - April Kepner - Cristina Young",
-	"BSC Young Boys",
-	"Porical",
-	"Endika",
-	"Fais pas ci, fais pas !a",
-	"Liste trop longue ahah",
-	"Monica - Rachel - Chandler - Joey - Ross",
-	"Britney",
-	"2021",
-	"1988",
+	"Peso Pluma",
+	"La sélection masculine espagnole de basket championne d'Europe en 2022.",
+	"Normandie - Orelsan, Médine, Keen V et Petit Biscuit",
+	"Les Sopranos",
+	"Mikel",
+	"Iñaki Williams",
+	"Muniain et Grizou",
+	"Bernalicis, Guiraud et Ruffin",
+	"Pidi, Michou, Squeezie & Joyca, Mcfly & Carlito ",
+	"Rudy Gobert",
+	"Et pour un monde meilleur ! & Pour l'amour du maillot que vous portez sur le dos.",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
 ]
