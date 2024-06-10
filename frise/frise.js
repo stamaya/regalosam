@@ -20,6 +20,7 @@ var images = [
 	"../screen/img18.png",
 	"../screen/img19.png",
 	"../screen/img20.png",
+	"../screen/the-end.jpeg",
 
 	]
 
@@ -35,8 +36,19 @@ var reponses = [
 	"Tunisie",
 	"Zambie",
 	"Arménie",
+	"Monaco",
 	"Népal",
-	"Monaco"
+	"Serbie",
+	"Bulgarie",
+	"Corée du Sud",
+	"Moldavie",
+	"Uruguay",
+	"Ghana",
+	"Kenya",
+	"Somalie",
+	"",
+
+
 
 
 
