@@ -1,7 +1,7 @@
 
 
 manches = []
-let manchesNb = 10
+let manchesNb = 6
 for(let i =0; i<manchesNb; i++)
 {
 	let currentManche = [];
@@ -17,7 +17,7 @@ var mancheActuelle = 0
 
 this.document.getElementById("manche-select").innerHTML += '<option value=0>Choisir sa manche</option>'
 
-for(let i = 1; i < manchesNb + 1 ; i++)
+for(let i = 1; i < manchesNb ; i++)
 	{
 		this.document.getElementById("manche-select").innerHTML += '<option value='+i + '> Manche ' + String(i) + "</option>"
 	}

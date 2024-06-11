@@ -11,7 +11,9 @@
 #bloc_image {
 	display: flex;
 	justify-content: center;
+	margin: auto;
 	height: 50vh;
+	max-width: 40vw;
 	}
 
 	#bloc_image #image {
@@ -21,6 +23,10 @@
 	/* box-shadow: 10px 10px 5px grey; */
 	filter: drop-shadow(0 0 0.75rem beige);
 }
+
+	img{
+		object-fit: contain;
+	}
 
 .center {
 	display: flex;

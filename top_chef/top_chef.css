@@ -48,8 +48,12 @@ img {
 	width: 12vw;
 }
 
+.draggable{
+	padding: 10px;
+}
+
 .draggable:hover  {
-	box-shadow: 10px 5px 5px rgb(181, 181, 181);
+	box-shadow: 5px 5px 10px rgba(231, 166, 166, 0.476);
 	border-radius: 30px;
 	cursor: pointer}
 
