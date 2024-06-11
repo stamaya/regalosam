@@ -1,7 +1,7 @@
 
 
 manches = []
-let manchesNb = 10
+let manchesNb = 9
 for(let i =0; i<manchesNb; i++)
 {
 	let currentManche = [];

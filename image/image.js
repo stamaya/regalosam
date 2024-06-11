@@ -22,11 +22,11 @@ var images = [
 	"../screen/cap19.jpg",
 	"../screen/cap20.jpg",
 	"../screen/cap21.jpg",
-	"../screen/cap12.jpg",
-	"../screen/cap13.jpg",
-	"../screen/cap14.jpg",
-	"../screen/cap15.jpg",
-	"../screen/cap16.jpg",
+	"../screen/cap22.jpg",
+	"../screen/cap23.jpg",
+	"../screen/cap24.jpg",
+	"../screen/cap25.jpg",
+	"../screen/cap26.jpg",
 	"../screen/the-end.jpeg",
 ]
 
