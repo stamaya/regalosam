@@ -24,59 +24,10 @@ var images = [
 	"../photo/img22.png",
 	"../photo/img23.png",
 	"../photo/img24.png",
-	"../photo/img25.png",
-	"../photo/img26.png",
-	"../photo/img27.png",
-	"../photo/img28.png",
-	"../photo/img29.png",
-	"../photo/img30.png",
-	"../photo/img31.png",
-	"../photo/img32.png",
-	"../photo/img33.png",
-	"../photo/img34.png",
-	"../photo/img35.png",
-	"../photo/img36.png",
+	
 	]
 
-var reponses = [
-	"",
-	"",
-	"Dario Šarić",
-	"Oihan Sancet",
-	"Nicolas Batum",
-	"Fianso",
-	"Anuel AA",
-	"",
-	"Sefyu",
-	"Brock James",
-	"Pierre Perret",
-	"Donte Di Vincenzo",
-	"Rory Kockott",
-	"",
-	"Roi Baudoin Ier",
-	"Beethoven",
-	"George Moustaki",
-	"Barbara",
-	"Mobutu Sese Seko",
-	"",
-	"Bloom",
-	"Ousmane Dembelé",
-	"Benoît Magimel",
-	"Fred Van Long",
-	"Ed Helms",
-	"",
-	"Sébastien Chabal",
-	"Fizz",
-	"Iop",
-	"Jo Wilson",
-	"T.R. Knight",
-	"",
-	"Raymond Poulidor",
-	"Iñaki Urdangarin",
-	"Asier Villalibre",
-	"Clemente",
-	"Juana La Loca"
-]
+
 
 
 /* Initialisation de la page*/
@@ -88,11 +39,7 @@ var reponses = [
 	function raz() {
 		document.getElementById("image").setAttribute("src", images[id]) ;
 		console.log(images[id]);
-		document.getElementById("solution").textContent = "Réponse";
-		document.getElementById("solution").style.fontFamily = "Police1" ;
-		document.getElementById("solution").style.fontSize = "30px" ;
-		document.getElementById("solution").style.paddingBottom = "10px" ;
-		document.getElementById("solution").style.paddingTop = "10px" ;
+
 	}
 	function precedent() {
 		id--;
@@ -104,10 +51,4 @@ var reponses = [
 		raz();
 	}
 
-	function reponse() {
-		document.getElementById("solution").textContent = reponses[id] ;
-		document.getElementById("solution").style.fontFamily = "Police1" ;
-		document.getElementById("solution").style.paddingBottom = "10px" ;
-		document.getElementById("solution").style.paddingTop = "10px" ;
-
-	}
+	
